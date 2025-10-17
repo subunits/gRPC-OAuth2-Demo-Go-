@@ -20,7 +20,7 @@ grpc-oauth/
 
 2. Generate Go code:
    ```bash
-   protoc --go_out=. --go-grpc_out=. proto/hello.proto
+   protoc --go_out=. --go-grpc_out=. hello.proto
    ```
 
 3. Run the server:
